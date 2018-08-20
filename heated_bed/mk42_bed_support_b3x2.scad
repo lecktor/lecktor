@@ -149,4 +149,4 @@ module result()
         }
     }
 }
-result();
+translate([-110,-110,0]) result();
