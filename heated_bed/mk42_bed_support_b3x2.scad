@@ -125,6 +125,9 @@ module holes()
     // m3 bearing support hole (right center)
     translate([205,110,-1]) cylinder(h=8,r=1.5,$fn=30);
     translate([185,110,-1]) cylinder(h=8,r=1.5,$fn=30);
+    
+    // mark
+    translate([31,220-35,5]) cylinder(h=2,r=1,$fn=30);
 }
 module prism(l,w,h)
 {
